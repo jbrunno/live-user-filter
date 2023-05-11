@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div>
+  <div
+    class="home-container"
+  >
+    <header
+      class="container-header"
+    >
+      <h1>
+        Live User Filter
+      </h1>
+      <div
+        class="home-filter"
+      >
+        <div
+          class="search-container"
+        >
+          <label
+            for="search"
+          >
+            Search by name or location
+          </label>
+          <input
+            class="search-input"
+            id="search"
+            placeholder="Search..."
+            type="text"
+            value=""
+          />
+        </div>
+      </div>
+    </header>
+    <div
+      class="home-content"
+    >
+      <div
+        class="user-list-container"
+      >
+        <div
+          class="user-list"
+        >
+          <div
+            class="loading"
+          >
+            Loading...
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
